@@ -1,0 +1,49 @@
+body{
+     background-color: rgb(211, 211, 211);
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-color: black;
+     color: white;
+}
+h2{
+    margin: auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid black;
+    width: 500px;
+}
+
+p{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   margin: auto;
+   padding-top: 20px;
+}
+body{
+     background-color: rgb(211, 211, 211);
+}
+
+
+article{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+article:nth-of-type(1){
+    border-right: 1px solid black;
+}
+article:nth-of-type(3){
+    border-right: 1px solid black;
+}
+img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
