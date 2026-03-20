@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+h1{
+    text-align: center;
+     font-family: Rubik Glitch;
+     border-bottom: 1px solid black;
+}
+
+p{
+    text-align: left;
+}
+body>a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    section>div {
+        flex:100%; 
+        border-right: none;
+        border-bottom: 1px solid black; 
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+/* @media screen and (max-width: 480px) {
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        display: flex; 
+        flex-direction: column; 
+        padding: 10px;
+    }
+
+    section>div {
+        flex: 100%; 
+        border-right: none;
+        border-bottom: 1px solid black; 
+        margin-bottom: 20px;
+        padding: 10px 0; 
+    }
+
+    p {
+        font-size: 14px;
+    }
+} */
